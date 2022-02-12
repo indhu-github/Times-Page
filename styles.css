@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-left span {
+  font-weight: 800;
+  font-size: 40px;
+  color: #e615159c;
+  margin-left: 5px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  min-width: 13vw;
+  align-items: center;
+}
+
+.header-right span:not(:first-child) {
+  margin-right: 20px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.452);
+}
+
+.header-right span:first-child {
+  font-weight: 800;
+  margin-right: 20px;
+}
+
+.search {
+  margin-right: 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.main-card,
+.optional-card {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main-card {
+  margin-bottom: 40px;
+  background-color: #9489891e;
+}
+
+.main-card h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color: #e615159c;
+}
+
+.news-cards,
+.optional-card .images {
+  display: flex;
+  flex-direction: row;
+}
+
+.post {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin-right: 25px;
+  margin-left: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post a {
+  color: #f32727;
+}
+
+.post .number {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.post .title {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 500;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.optional-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images img {
+  padding: 35px;
+}
